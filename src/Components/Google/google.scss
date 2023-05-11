@@ -1,0 +1,46 @@
+.google-wrapper {
+    background: #F6F7FA;
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.google-list {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.google-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color:#0F1113;
+
+    margin-bottom: 40px;
+    span {
+        color:#FF4D4D;
+    }
+}
+
+.google-list {
+    img {
+        display: block;
+    }
+}
+
+.google-list2 {
+    margin-left: 140px;
+}
+
+.iphone-img {
+    margin-top: 80px;
+    z-index: 3;
+    position: relative;
+}
+
+.iphone-img2 {
+    position: relative;
+    right: 108px;
+}
