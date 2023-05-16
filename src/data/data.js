@@ -112,5 +112,12 @@ export const data2 = [
         fullName: `Apple iPhone 13 Pro Max 256 ГБ серый`,
         price: `114 099 ₽`
     },
+    {
+        id: 10,
+        img: `https://assets.asaxiy.uz/product/items/desktop/44f683a84163b3523afe57c2e008bc8c2022092114241486833ApwaRWowaz.png.webp`,
+        name: `Смартфоны`,
+        fullName: `Apple iPhone 13 Pro Max 256 ГБ серый`,
+        price: `114 099 ₽`
+    },
 
 ]
