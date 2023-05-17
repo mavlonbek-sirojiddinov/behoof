@@ -64,3 +64,23 @@
   color: #7E8794;
   text-decoration: none;
 }
+
+@media (max-width: "375px") {
+  .footer-wrap {
+    display: block;
+  }
+  .footer-list {
+    display: block;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+  .footer-last-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7E8794;
+    text-decoration: none;
+  }  
+}

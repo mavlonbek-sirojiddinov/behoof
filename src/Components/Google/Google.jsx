@@ -15,7 +15,7 @@ function Google() {
                         и получайте <span>максимум</span> <br />
                         от ежедневных покупок
                     </h2>
-                    <Link><img src={googleLogo} alt="" /></Link>
+                    <Link><img className='google-link' src={googleLogo} alt="" /></Link>
                 </div>
                 <div className='google-list2'>
                     <img className='iphone-img' src={Iphone1} alt="" />

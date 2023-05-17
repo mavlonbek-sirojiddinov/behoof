@@ -45,3 +45,49 @@
     position: relative;
     right: 108px;
 }
+
+@media (max-width: "375px") {
+    .google-wrapper {
+        background: #F6F7FA;
+        border-radius: 16px;
+        display: block;
+        margin-top: 80px;   
+        margin-bottom: 80px;
+    }    
+    .iphone-img {
+        display: none;
+    }
+    .iphone-img2 {
+        display: none;
+    }
+
+    .google-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        color:#0F1113;
+    
+        margin-bottom: 12px;
+        span {
+            color:#FF4D4D;
+        }
+    }
+    .google-list {
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+    .google-link {
+        width: 319px;
+        height: 48.73px;
+        margin-bottom: 12.71px;
+    }
+    .google-list2 {
+        margin-left: 12px;
+        background-image: url(../../img/respIphone.png);
+        background-repeat: no-repeat;
+        width: 319px;
+        height: 26vh;
+    }
+}
