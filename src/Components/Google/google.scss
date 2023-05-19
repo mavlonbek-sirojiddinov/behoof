@@ -51,7 +51,7 @@
         background: #F6F7FA;
         border-radius: 16px;
         display: block;
-        margin-top: 80px;   
+        margin-top: 32px;   
         margin-bottom: 80px;
     }    
     .iphone-img {
@@ -88,6 +88,27 @@
         background-image: url(../../img/respIphone.png);
         background-repeat: no-repeat;
         width: 319px;
-        height: 26vh;
+        height: 30vh;
     }
 }
+@media (min-height: 0) and (max-height: 880px) {
+    .google-list2 {
+        margin-left: 12px;
+        background-image: url(../../img/respIphone.png);
+        background-repeat: no-repeat;
+        width: 319px;
+        height: 255px;
+        position: relative;
+    }
+    @media (min-height: 0) and (max-height: 800px) {
+        .google-list2 {
+            margin-left: 12px;
+            background-image: url(../../img/respIphone.png);
+            background-repeat: no-repeat;
+            width: 319px;
+            height: 223px;
+            position: relative;
+        }
+    }
+}
+
