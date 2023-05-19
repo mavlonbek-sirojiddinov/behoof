@@ -51,14 +51,6 @@
     transition: 0.3s;
 }
 
-.new-item:hover {
-    background: aqua;
-    transform: scale(1.1);
-    box-shadow: 0 0 10px aqua,
-                0 0 20px aqua,
-                0 0 30px aqua,
-                0 0 40px aqua;
-}
 
 .new-item2 {
     margin-bottom: 20px;
@@ -131,4 +123,91 @@
     height: 25px;
     margin-left: 4px;
     background-repeat: no-repeat;   
+}
+
+.my-swiper {
+    display: none;
+}
+
+@media (min-width: 0) and (max-width: 375px) {
+    .new-head-wrapper {
+        display: none;
+    }
+
+    .new-item {
+        width: 213px;
+        background: #F6F7FA;
+        border-radius: 12px;
+        padding: 12px 12px 14px 12px;
+        transition: 0.3s;
+        margin-right: 0;
+    }
+
+    .my-swiper {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    .new-img {
+        width: 189px;
+        height: 128px;        
+    }
+
+    .new-item-wrapper {
+        display: flex;
+    }
+
+    .new-item-name {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #7E8794;
+        text-align: start;
+        text-decoration: none;
+        margin-top: 12px;
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .new-item-fullName {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #263141;
+        margin-bottom: 10px;
+    }
+
+    .new-sena {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #7E8794;
+        display: flex;
+        text-decoration: none;
+        margin-bottom: 4px;
+    }
+    
+    .new-sena::after {
+        content: '';
+        background-image: url(../../img/imgNew//sena-vector.svg);
+        display: block;
+        height: 16px;
+        margin-left: 4px;
+        background-repeat: no-repeat;
+    }
+    .new-item-rubl{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #263141;
+    }
 }

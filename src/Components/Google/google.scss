@@ -46,7 +46,7 @@
     right: 108px;
 }
 
-@media (max-width: "375px") {
+@media (min-width: 0) and (max-width: 375px) {
     .google-wrapper {
         background: #F6F7FA;
         border-radius: 16px;

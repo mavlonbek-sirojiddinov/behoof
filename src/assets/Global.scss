@@ -16,9 +16,9 @@ body {
     margin: 0 auto;
 }
 
-@media (width: "375px") {
+@media (min-width: 0) and (max-width: "375px") {
   .container {
     max-width: 343px;
     margin: 0 auto;
-  }
+  } 
 }

@@ -15,7 +15,6 @@
 .obzor-img {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-
 }
 
 .obzor-item-title {
@@ -61,4 +60,75 @@
     background-image: url(../../img/imgNew/link-vector.svg);
     width: 20px;
     height: 20px;
+}
+
+.obzor-slider {
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 375px) {
+
+    .obzor-wrapper {
+        display: none;
+    }
+    .obzor-slider {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    .obzor-item {
+        width: 232px;
+        background: #F6F7FA;
+        border-radius: 12px;
+    }   
+
+    .obzor-img {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .obzor-item-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #263141;
+        margin-top: 12px;
+        margin-bottom: 8px;
+        margin-left: 12px;
+    }
+
+    .obzor-item-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #7E8794;
+        margin-left: 12px;
+        margin-bottom: 8px;
+    }
+
+    .obzor-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF4D4D;
+        margin-left: 12px;
+        padding-bottom: 12px;
+    }
+    
+    .obzor-link::after {
+        content: '';
+        background-image: url(../../img/imgNew/link-vector.svg);
+        width: 20px;
+        height: 20px;
+    }
 }
