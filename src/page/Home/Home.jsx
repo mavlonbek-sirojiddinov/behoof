@@ -4,11 +4,13 @@ import Google from '../../Components/Google/Google'
 import New from '../../Components/New/New'
 import Obzor from '../../Components/Obzor/Obzor'
 import FooterMenu from '../../Components/FooterMenu/FooterMenu'
+import Header from '../../Components/Header/Header'
 
 
 function home() {
   return (
     <div>
+        <Header/>
         <Google/>
         <New/>
         <Obzor/>

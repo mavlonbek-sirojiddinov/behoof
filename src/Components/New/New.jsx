@@ -26,7 +26,7 @@ function New() {
             <div className='new-wrapper'>
                 <h4 className='new-title'>Новинки</h4>
                 <Link className='new-link'>К новинкам</Link>
-            </div>
+            </div>  
             <div className='new-head-wrapper'>
                 <ul className='new-list'>
                     <li className='new-item new-item2'>
