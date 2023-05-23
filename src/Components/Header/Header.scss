@@ -1,8 +1,15 @@
+header {
+    background: #FDFDFD;    
+    border-bottom: 1px solid #F2F5F9;
+    margin-bottom: 40px;
+}
+
 .site-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .nav-head-link {
@@ -65,10 +72,17 @@
 }
 
 @media (min-width: 0) and (max-width: 428px) {
+    header {
+        background: #FDFDFD;    
+        border-bottom: 1px solid #F2F5F9;
+        margin-bottom: 20px;
+    }
     .site-nav {
         display: block;
         align-items: center;
         justify-content: space-between;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 
     .nav-head-link {

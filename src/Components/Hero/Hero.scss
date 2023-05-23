@@ -1,0 +1,124 @@
+.hero-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-wrapper1 {
+    background: #F2F5F9;
+    border-radius: 16px;
+    max-width: 899px;
+    padding: 40px 0 40px 40px;
+}
+
+.hero-wrapper2 {
+    background: #F2F5F9;
+    border-radius: 16px;
+    max-width: 509px;
+    padding: 60px 0 40px 40px;
+    background-image: url(../../img/image_17-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: calc(0px + 266px) 130px;
+}
+
+.hero-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    color: #0F1113;
+    margin-bottom: 32px;
+    span {
+        color: #FF4D4D;
+    }
+}
+
+.hero-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF4D4D;
+    border-radius: 8px;
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-btn::after {
+    content: "";
+    background-image: url(../../img/link-vector2.svg);
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.hero-title2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 58px;
+    color: #0F1113;
+    margin-bottom: 40px;
+    span {
+        color: #FF4D4D;
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .hero-box {
+        display: 
+        block;
+        justify-content: space-between;
+    }
+    .hero-wrapper1 {
+        background: #F2F5F9;
+        border-radius: 16px;
+        max-width: 899px;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+
+    .hero-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        color: #0F1113;
+        margin-bottom: 12px;
+        span {
+            color: #FF4D4D;
+        }
+    }
+
+    .hero-wrapper2 {
+        background: #F2F5F9;
+        border-radius: 16px;
+        max-width: 509px;
+        padding: 12px;
+        background-image: url(../../img/image_17__1_-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: calc(0px + 187px) 25px;
+    }
+
+    .hero-title2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 28px;
+        width: 250px;
+        color: #0F1113;
+        margin-bottom: 12px;
+        span {
+            color: #FF4D4D;
+        }
+    }
+}

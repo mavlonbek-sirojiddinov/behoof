@@ -5,12 +5,14 @@ import New from '../../Components/New/New'
 import Obzor from '../../Components/Obzor/Obzor'
 import FooterMenu from '../../Components/FooterMenu/FooterMenu'
 import Header from '../../Components/Header/Header'
+import Hero from '../../Components/Hero/Hero'
 
 
 function home() {
   return (
     <div>
         <Header/>
+        <Hero/>
         <Google/>
         <New/>
         <Obzor/>

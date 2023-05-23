@@ -25,6 +25,7 @@ function Header() {
                 </ul>
             </nav>
         </div>
+        <span className='header-line'></span>
     </header>
   )
 }
